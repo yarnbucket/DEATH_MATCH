@@ -1,4 +1,4 @@
-const CACHE_NAME = 'death-trails-v4-pwa-008a';
+const CACHE_NAME = 'death-trails-v4-pwa-008b';
 const APP_SHELL = [
   './',
   './index.html',
