@@ -1,4 +1,4 @@
-const CACHE_NAME = 'death-trails-v4-pwa-001';
+const CACHE_NAME = 'death-trails-v4-pwa-008a';
 const APP_SHELL = [
   './',
   './index.html',
@@ -7,7 +7,10 @@ const APP_SHELL = [
   './icons/apple-touch-icon-180.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/icon-maskable-512.png'
+  './icons/icon-maskable-512.png',
+  './audio/welcome.mp3',
+  './audio/zombie-groan.mp3',
+  './audio/undertaker-bell-sound-effect.mp3'
 ];
 
 self.addEventListener('install', event => {
