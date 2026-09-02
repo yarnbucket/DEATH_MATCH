@@ -5125,6 +5125,18 @@ body.dt-opening .death-overlay{
 }
 body.dt-opening #dtStartup{visibility:visible!important;pointer-events:auto!important;}
 </style>
+
+<style id="dt-v008b-round-nav">
+.board-next-round{
+  display:none;position:absolute;left:50%;bottom:calc(78px + max(6px,env(safe-area-inset-bottom)));
+  transform:translateX(-50%);z-index:900;width:min(88%,360px);min-height:50px;padding:10px 18px;
+  border:1px solid rgba(222,66,73,.82);border-radius:10px;background:linear-gradient(180deg,rgba(105,13,20,.98),rgba(34,5,8,.98));
+  color:#fff3e8;font:900 16px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:1px;
+  box-shadow:0 10px 28px rgba(0,0,0,.56),0 0 22px rgba(180,12,24,.26);touch-action:manipulation;
+}
+.board-next-round.show{display:block}
+@media(max-height:760px){.board-next-round{bottom:calc(66px + max(4px,env(safe-area-inset-bottom)));min-height:46px;font-size:14px}}
+</style>
 </head>
 <body class="dt-opening">
 <div id="dtStartup" aria-label="Death Trails welcome screen">
@@ -5330,6 +5342,8 @@ body.dt-opening #dtStartup{visibility:visible!important;pointer-events:auto!impo
       <span class="trail-sample static-sample"></span><b>STATIC</b>
     </button>
   </section>
+
+  <button class="board-next-round" id="boardNextRoundBtn" type="button" aria-label="Start next round">NEXT ROUND →</button>
 
   <button class="wire-game-info" id="gameInfoBtn" type="button">
     <b>CHOOSE YOUR TRAIL CAREFULLY</b>
@@ -5639,9 +5653,9 @@ body.dt-opening #dtStartup{visibility:visible!important;pointer-events:auto!impo
     <h2>MATCH TOPICS</h2>
     <p class="topic-sub">Categories are Levels. Scared starts familiar, Curious digs deeper, and Mad Man targets veteran fans. No clue should contain its own answer.</p>
     <div class="topic-difficulty" aria-label="Difficulty">
-      <button class="topic-mode active" data-mode="scared"><b>SCARED</b><span>100 HP • WRONG −12+ • DRAG +3 HP</span></button>
-      <button class="topic-mode" data-mode="curious"><b>CURIOUS</b><span>100 HP • WRONG −16+ • DRAG +5 HP</span></button>
-      <button class="topic-mode" data-mode="madman"><b>MAD MAN</b><span>100 HP • WRONG −20+ • DRAG +7 HP</span></button>
+      <button class="topic-mode active" data-mode="scared"><b>SCARED</b><span>WRONG −10 HP • CORRECT +1 HP</span></button>
+      <button class="topic-mode" data-mode="curious"><b>CURIOUS</b><span>WRONG −15 HP • CORRECT +1 HP</span></button>
+      <button class="topic-mode" data-mode="madman"><b>MAD MAN</b><span>WRONG −25 HP • CORRECT +1 HP</span></button>
     </div>
     <div class="topic-grid" id="topicGrid"></div>
   </div>
@@ -6422,8 +6436,8 @@ const LEVELS = {"director":{"name":"DIRECTOR'S CUT","desc":"Movie ↔ Director",
 
 const MODE = {
   scared:{label:"SCARED",count:5,maxWords:6,hpDamage:10,dragHeal:0},
-  curious:{label:"CURIOUS",count:5,maxWords:6,hpDamage:10,dragHeal:0},
-  madman:{label:"MAD MAN",count:5,maxWords:6,hpDamage:10,dragHeal:0}
+  curious:{label:"CURIOUS",count:5,maxWords:6,hpDamage:15,dragHeal:0},
+  madman:{label:"MAD MAN",count:5,maxWords:6,hpDamage:25,dragHeal:0}
 };
 const LIFE_HP_START=100;
 const LIFE_HP_OVERHEAL=100;
@@ -7359,6 +7373,80 @@ function playRandomHorrorAudio(reason="ambient"){
   const clipLimit=1600+(audioCfg.duration/10)*8400;
   setTimeout(()=>{if(state.ambientAudio===a){try{a.pause()}catch(e){} finish();}},clipLimit);
 }
+let lastLifeHauntTimer=null;
+let lastLifeMoanAudio=null;
+function clearLastLifeHaunts(){
+  if(lastLifeHauntTimer){clearTimeout(lastLifeHauntTimer);lastLifeHauntTimer=null;}
+  if(lastLifeMoanAudio){
+    try{lastLifeMoanAudio.pause();lastLifeMoanAudio.currentTime=0}catch(e){}
+    lastLifeMoanAudio=null;
+  }
+}
+function playLastLifeCrowCaws(){
+  if(!state.sound || !state.audioAwake || state.dead || state.gameOver || state.lives!==1)return false;
+  if(typeof speechSynthesis!=="undefined" && speechSynthesis.speaking)return false;
+  const ctx=getThunderAudioContext();
+  if(!ctx || ctx.state==="suspended")return false;
+  try{
+    const now=ctx.currentTime;
+    const master=ctx.createGain();
+    master.gain.value=state.hp<=20?.12:.085;
+    master.connect(ctx.destination);
+    const caws=state.hp<=20?3+Math.floor(Math.random()*3):2+Math.floor(Math.random()*3);
+    for(let n=0;n<caws;n++){
+      const start=now+n*(.22+Math.random()*.18);
+      const dur=.15+Math.random()*.10;
+      const osc=ctx.createOscillator();
+      const filter=ctx.createBiquadFilter();
+      const gain=ctx.createGain();
+      osc.type="sawtooth";
+      const f0=1050+Math.random()*420;
+      osc.frequency.setValueAtTime(f0,start);
+      osc.frequency.exponentialRampToValueAtTime(520+Math.random()*170,start+dur);
+      filter.type="bandpass";filter.Q.value=1.8;filter.frequency.value=900;
+      gain.gain.setValueAtTime(.001,start);
+      gain.gain.exponentialRampToValueAtTime(.72,start+.025);
+      gain.gain.exponentialRampToValueAtTime(.001,start+dur);
+      osc.connect(filter);filter.connect(gain);gain.connect(master);
+      osc.start(start);osc.stop(start+dur+.02);
+    }
+    return true;
+  }catch(e){return false}
+}
+function playLastLifeZombieMoan(){
+  if(!state.sound || !state.audioAwake || state.dead || state.gameOver || state.lives!==1 || lifeLossAudio || perfectCelebrationAudio)return false;
+  if(lastLifeMoanAudio && !lastLifeMoanAudio.paused)return false;
+  const item=LIFE_LOSS_MP3_AUDIO.find(x=>x.name==="Zombie Groan");
+  if(!item?.src)return false;
+  try{
+    const a=new Audio(item.src);
+    a.preload="auto";a.playsInline=true;a.volume=state.hp<=20?.30:.20;a.playbackRate=.82+Math.random()*.20;
+    lastLifeMoanAudio=a;
+    const finish=()=>{if(lastLifeMoanAudio===a)lastLifeMoanAudio=null};
+    a.addEventListener("ended",finish,{once:true});a.addEventListener("error",finish,{once:true});
+    const p=a.play();if(p?.catch)p.catch(finish);
+    setTimeout(()=>{if(lastLifeMoanAudio===a){try{a.pause();a.currentTime=0}catch(e){}finish();}},state.hp<=20?4800:3400);
+    return true;
+  }catch(e){return false}
+}
+function scheduleLastLifeHaunts(initialDelay=null){
+  if(lastLifeHauntTimer){clearTimeout(lastLifeHauntTimer);lastLifeHauntTimer=null;}
+  if(!state.sound || !state.audioAwake || state.dead || state.gameOver || state.lives!==1)return;
+  const critical=state.hp<=20;
+  const delay=initialDelay??randomBetween(critical?5500:9000,critical?13000:22000);
+  lastLifeHauntTimer=setTimeout(()=>{
+    lastLifeHauntTimer=null;
+    if(state.sound && state.audioAwake && !state.dead && !state.gameOver && state.lives===1){
+      if(Math.random()<(critical?.68:.58))playLastLifeCrowCaws();else playLastLifeZombieMoan();
+      scheduleLastLifeHaunts();
+    }
+  },delay);
+}
+function syncLastLifeHaunts(initialDelay=null){
+  if(state.lives===1 && !state.dead && !state.gameOver && state.sound && state.audioAwake)scheduleLastLifeHaunts(initialDelay);
+  else clearLastLifeHaunts();
+}
+
 function scheduleHorrorAudio(){
   clearTimeout(state.ambientTimer);
   state.ambientTimer=null;
@@ -7378,12 +7466,13 @@ function awakenHorrorAudio(){
   state.audioAwake=true;
   primeThunderAudio();
   scheduleHorrorAudio();
+  syncLastLifeHaunts(6500);
 }
 function toggleGameSound(){
   state.sound=!state.sound;
   localStorage.setItem("hm_sound",state.sound?"on":"off");
-  if(!state.sound){ stopAmbientAudio(); stopPerfectScareAudio(); stopLifeLossAudio(); clearThunderTimers(); try{speechSynthesis.cancel()}catch(e){} }
-  else { primeThunderAudio(); scheduleHorrorAudio(); }
+  if(!state.sound){ stopAmbientAudio(); stopPerfectScareAudio(); stopLifeLossAudio(); clearThunderTimers(); clearLastLifeHaunts(); try{speechSynthesis.cancel()}catch(e){} }
+  else { primeThunderAudio(); scheduleHorrorAudio(); syncLastLifeHaunts(5000); }
   updateHomeHub();
   toast(state.sound?"Sound awakened.":"Sound silenced.",state.sound?"good":"");
 }
@@ -7634,7 +7723,7 @@ function renderRewardHealth(){
 }
 
 function healthDamageFor(){
-  return WRONG_HP_DAMAGE;
+  return Math.max(0,Number(MODE[state.mode]?.hpDamage)||WRONG_HP_DAMAGE);
 }
 function grantCorrectHealth(amount=CORRECT_HP_HEAL){
   const before=Math.max(0,Number(state.hp)||0);
@@ -7713,6 +7802,7 @@ function playerDeath(){
   state.preview=null;
   clearSelection();
   stopAmbientAudio();
+  clearLastLifeHaunts();
   clearThunderTimers();
 
   updateHUD();
@@ -7765,6 +7855,7 @@ function playAgainLife(){
   updateHUD();
   redrawAll();
   toast(freshRun?"NEW RUN • 3 LIVES • LEVEL 0 • THE GRAVE REMEMBERS":"BACK FROM THE DEAD • 100 HP","good");
+  syncLastLifeHaunts(freshRun?null:4200);
   window.scrollTo({top:0,behavior:"smooth"});
 }
 
@@ -8404,6 +8495,9 @@ function wrongAttempt(sideA,idA,sideB,idB){
   state.trailStreak=0;
   state.hp=Math.max(0,state.hp-damage);
   saveSurvivalState();
+  if(state.lives===1 && state.hp>0 && state.sound && state.audioAwake && Math.random()<.46){
+    setTimeout(()=>{if(state.lives===1 && state.hp>0 && !state.dead){Math.random()<.68?playLastLifeCrowCaws():playLastLifeZombieMoan();}},650+Math.random()*950);
+  }
 
   const sourceRow=document.querySelector(`.${sideA} .match-row[data-id="${CSS.escape(idA)}"]`);
   showPoints(-damage,sourceRow,"HP");
@@ -8996,13 +9090,21 @@ document.querySelectorAll('.topic-mode').forEach(btn=>btn.addEventListener('clic
     toast(`${MODE[state.mode].label} remains selected.`);
   }
 }));
-document.getElementById('nextRoundBtn').addEventListener('click',()=>{
+const proceedToNextRound=()=>{
   closeVerdictModal();
   closeHomeHub();
   els.reward.classList.remove('show');
+  document.getElementById('boardNextRoundBtn')?.classList.remove('show');
   startRound();
+  window.scrollTo({top:0,behavior:'smooth'});
+};
+document.getElementById('nextRoundBtn').addEventListener('click',proceedToNextRound);
+document.getElementById('boardNextRoundBtn')?.addEventListener('click',proceedToNextRound);
+document.getElementById('closeRewardBtn').addEventListener('click',()=>{
+  els.reward.classList.remove('show');
+  document.getElementById('boardNextRoundBtn')?.classList.add('show');
+  freezeMatchBoardUrl();
 });
-document.getElementById('closeRewardBtn').addEventListener('click',()=>{els.reward.classList.remove('show');freezeMatchBoardUrl()});
 document.getElementById('homeBtn').addEventListener('click',()=>{
   closeTopicMaster();
   els.leaderboard.classList.remove('show');
@@ -9103,9 +9205,10 @@ window.dtStartGameplay=()=>{
   scheduleBat();
   scheduleWitch();
   scheduleLightning();
+  syncLastLifeHaunts(7000);
   setTimeout(()=>{ if(Math.random()>.45) spawnBat(false); },1200);
 };
-/* Startup is anonymous; welcome audio completes before the first round is dealt. */
+/* v0.08b: welcome MP3 only; first round stays hidden until it finishes. */
 })();
 </script>
 \n<script id="death-trails-pwa-shell">
@@ -9205,8 +9308,7 @@ window.dtStartGameplay=()=>{
   let openingStarted=false;
 
   const startGame=()=>{
-    // Deal the first board while it is still hidden. The player sees no topic
-    // or match content until BOTH the welcome MP3 and evil greeting are done.
+    // Deal the first board only after the welcome MP3 finishes. No topic or board is revealed early.
     try{window.dtStartGameplay?.()}catch(e){console.warn('Gameplay start failed:',e)}
     const game=document.querySelector('.wire-app');
     game?.removeAttribute('aria-hidden');
@@ -9219,29 +9321,6 @@ window.dtStartGameplay=()=>{
     });
   };
 
-  const speakWarGamesLine=(done)=>{
-    const finish=typeof done==='function'?done:()=>{};
-    if(!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)){finish();return;}
-    try{
-      speechSynthesis.cancel();
-      const u=new SpeechSynthesisUtterance('Shall we play a game?');
-      u.lang='en-US';
-      u.rate=0.72;
-      u.pitch=0.55;
-      u.volume=0.95;
-      const voices=speechSynthesis.getVoices?.()||[];
-      const preferred=voices.find(v=>/microsoft.*(david|mark)|google.*us english|english.*male|male/i.test(`${v.name} ${v.voiceURI||''}`))
-        || voices.find(v=>/^en(-|_)/i.test(v.lang||''))
-        || voices[0];
-      if(preferred)u.voice=preferred;
-      let finished=false;
-      const end=()=>{if(finished)return;finished=true;finish()};
-      u.onend=end;u.onerror=end;
-      speechSynthesis.speak(u);
-      setTimeout(end,5200);
-    }catch(e){console.warn('Startup TTS unavailable:',e);finish();}
-  };
-
   const runOpening=()=>{
     if(openingStarted)return;
     openingStarted=true;
@@ -9251,7 +9330,7 @@ window.dtStartGameplay=()=>{
     try{awakenHorrorAudio?.()}catch(e){}
     try{primeLifeLossAudio?.()}catch(e){}
 
-    const afterWelcome=()=>speakWarGamesLine(startGame);
+    const afterWelcome=()=>startGame();
     if(!welcome){afterWelcome();return;}
     try{
       welcome.currentTime=0;
