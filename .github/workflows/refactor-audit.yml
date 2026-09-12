@@ -1,0 +1,38 @@
+name: Refactor Monolith Audit
+
+on:
+  push:
+    branches:
+      - refactor/modular-game
+    paths:
+      - index.html
+      - scripts/audit_monolith.py
+      - .github/workflows/refactor-audit.yml
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out refactor branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/modular-game
+          fetch-depth: 0
+
+      - name: Audit monolithic HTML
+        run: python3 scripts/audit_monolith.py
+
+      - name: Commit audit report
+        run: |
+          if git diff --quiet -- reports/monolith-audit.md 2>/dev/null && git ls-files --error-unmatch reports/monolith-audit.md >/dev/null 2>&1; then
+            echo "Audit report unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/monolith-audit.md
+          git commit -m "chore: update monolith audit report"
+          git push origin HEAD:refactor/modular-game
