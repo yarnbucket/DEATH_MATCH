@@ -1,0 +1,2717 @@
+{
+  "schemaVersion": "666-master-v1",
+  "totalPairs": 666,
+  "categoryCount": 13,
+  "audit": {
+    "exactDuplicatePairs": 0,
+    "duplicateQuestionsWithinCategory": 0,
+    "duplicateAnswersWithinCategory": 0,
+    "questionAnswerLeakage": 0,
+    "countMismatch": 0
+  },
+  "targets": {
+    "DIRECTOR'S CUT": 51,
+    "BEHIND THE FACE": 51,
+    "TIMELINE OF TERROR": 51,
+    "THE RULES": 51,
+    "WHERE NIGHTMARES LIVE": 51,
+    "FROM PAGE TO SCREAM": 51,
+    "KILLER'S ARSENAL": 51,
+    "LAST WORDS": 52,
+    "HAUNTED GROUND": 52,
+    "FINAL GIRLS & SURVIVORS": 51,
+    "SCREAM ROYALTY": 51,
+    "MONSTER MAKERS": 51,
+    "ON THE SCREEN": 52
+  },
+  "categories": {
+    "DIRECTOR'S CUT": [
+      {
+        "question": "Alien",
+        "answer": "Ridley Scott"
+      },
+      {
+        "question": "Halloween",
+        "answer": "John Carpenter"
+      },
+      {
+        "question": "The Shining",
+        "answer": "Stanley Kubrick"
+      },
+      {
+        "question": "Scream",
+        "answer": "Wes Craven"
+      },
+      {
+        "question": "Psycho",
+        "answer": "Alfred Hitchcock"
+      },
+      {
+        "question": "The Exorcist",
+        "answer": "William Friedkin"
+      },
+      {
+        "question": "The Texas Chain Saw Massacre",
+        "answer": "Tobe Hooper"
+      },
+      {
+        "question": "Hereditary",
+        "answer": "Ari Aster"
+      },
+      {
+        "question": "Get Out",
+        "answer": "Jordan Peele"
+      },
+      {
+        "question": "The Conjuring",
+        "answer": "James Wan"
+      },
+      {
+        "question": "The Babadook",
+        "answer": "Jennifer Kent"
+      },
+      {
+        "question": "The Blair Witch Project",
+        "answer": "Daniel Myrick & Eduardo Sánchez"
+      },
+      {
+        "question": "The Descent",
+        "answer": "Neil Marshall"
+      },
+      {
+        "question": "The Ring (2002)",
+        "answer": "Gore Verbinski"
+      },
+      {
+        "question": "It Follows",
+        "answer": "David Robert Mitchell"
+      },
+      {
+        "question": "Night of the Living Dead",
+        "answer": "George A. Romero"
+      },
+      {
+        "question": "The Witch",
+        "answer": "Robert Eggers"
+      },
+      {
+        "question": "A Quiet Place",
+        "answer": "John Krasinski"
+      },
+      {
+        "question": "Train to Busan",
+        "answer": "Yeon Sang-ho"
+      },
+      {
+        "question": "Rosemary's Baby",
+        "answer": "Roman Polanski"
+      },
+      {
+        "question": "The Fly (1986)",
+        "answer": "David Cronenberg"
+      },
+      {
+        "question": "The Evil Dead (1981)",
+        "answer": "Sam Raimi"
+      },
+      {
+        "question": "Hellraiser",
+        "answer": "Clive Barker"
+      },
+      {
+        "question": "Candyman (1992)",
+        "answer": "Bernard Rose"
+      },
+      {
+        "question": "The Omen",
+        "answer": "Richard Donner"
+      },
+      {
+        "question": "The Cabin in the Woods",
+        "answer": "Drew Goddard"
+      },
+      {
+        "question": "The Orphanage",
+        "answer": "J. A. Bayona"
+      },
+      {
+        "question": "Suspiria (1977)",
+        "answer": "Dario Argento"
+      },
+      {
+        "question": "28 Days Later",
+        "answer": "Danny Boyle"
+      },
+      {
+        "question": "Nosferatu (1922)",
+        "answer": "F. W. Murnau"
+      },
+      {
+        "question": "Jaws",
+        "answer": "Steven Spielberg"
+      },
+      {
+        "question": "Carrie (1976)",
+        "answer": "Brian De Palma"
+      },
+      {
+        "question": "Friday the 13th (1980)",
+        "answer": "Sean S. Cunningham"
+      },
+      {
+        "question": "The Sixth Sense",
+        "answer": "M. Night Shyamalan"
+      },
+      {
+        "question": "Misery",
+        "answer": "Rob Reiner"
+      },
+      {
+        "question": "Child's Play (1988)",
+        "answer": "Tom Holland"
+      },
+      {
+        "question": "Final Destination (2000)",
+        "answer": "James Wong"
+      },
+      {
+        "question": "The Others",
+        "answer": "Alejandro Amenábar"
+      },
+      {
+        "question": "The Autopsy of Jane Doe",
+        "answer": "André Øvredal"
+      },
+      {
+        "question": "The Ritual",
+        "answer": "David Bruckner"
+      },
+      {
+        "question": "The Black Phone",
+        "answer": "Scott Derrickson"
+      },
+      {
+        "question": "The Invisible Man (2020)",
+        "answer": "Leigh Whannell"
+      },
+      {
+        "question": "Barbarian",
+        "answer": "Zach Cregger"
+      },
+      {
+        "question": "Doctor Sleep",
+        "answer": "Mike Flanagan"
+      },
+      {
+        "question": "Possession (1981)",
+        "answer": "Andrzej Żuławski"
+      },
+      {
+        "question": "The Changeling (1980)",
+        "answer": "Peter Medak"
+      },
+      {
+        "question": "Black Christmas (1974)",
+        "answer": "Bob Clark"
+      },
+      {
+        "question": "Audition (1999)",
+        "answer": "Takashi Miike"
+      },
+      {
+        "question": "The Wicker Man (1973)",
+        "answer": "Robin Hardy"
+      },
+      {
+        "question": "Pulse (2001)",
+        "answer": "Kiyoshi Kurosawa"
+      },
+      {
+        "question": "The House of the Devil",
+        "answer": "Ti West"
+      }
+    ],
+    "BEHIND THE FACE": [
+      {
+        "question": "Laurie Strode",
+        "answer": "Jamie Lee Curtis"
+      },
+      {
+        "question": "Freddy Krueger",
+        "answer": "Robert Englund"
+      },
+      {
+        "question": "Leatherface (1974)",
+        "answer": "Gunnar Hansen"
+      },
+      {
+        "question": "Michael Myers (1978)",
+        "answer": "Nick Castle"
+      },
+      {
+        "question": "Sidney Prescott",
+        "answer": "Neve Campbell"
+      },
+      {
+        "question": "Billy Loomis",
+        "answer": "Skeet Ulrich"
+      },
+      {
+        "question": "Ellen Ripley",
+        "answer": "Sigourney Weaver"
+      },
+      {
+        "question": "Norman Bates",
+        "answer": "Anthony Perkins"
+      },
+      {
+        "question": "Regan MacNeil",
+        "answer": "Linda Blair"
+      },
+      {
+        "question": "Damien Thorn",
+        "answer": "Harvey Stephens"
+      },
+      {
+        "question": "Annie Wilkes",
+        "answer": "Kathy Bates"
+      },
+      {
+        "question": "Carrie White",
+        "answer": "Sissy Spacek"
+      },
+      {
+        "question": "Candyman",
+        "answer": "Tony Todd"
+      },
+      {
+        "question": "Pinhead",
+        "answer": "Doug Bradley"
+      },
+      {
+        "question": "Ash Williams",
+        "answer": "Bruce Campbell"
+      },
+      {
+        "question": "The Tall Man",
+        "answer": "Angus Scrimm"
+      },
+      {
+        "question": "Chucky",
+        "answer": "Brad Dourif"
+      },
+      {
+        "question": "Tiffany Valentine",
+        "answer": "Jennifer Tilly"
+      },
+      {
+        "question": "Pennywise (1990)",
+        "answer": "Tim Curry"
+      },
+      {
+        "question": "Count Dracula",
+        "answer": "Christopher Lee"
+      },
+      {
+        "question": "Seth Brundle",
+        "answer": "Jeff Goldblum"
+      },
+      {
+        "question": "Thomasin",
+        "answer": "Anya Taylor-Joy"
+      },
+      {
+        "question": "Chris Washington",
+        "answer": "Daniel Kaluuya"
+      },
+      {
+        "question": "Samara Morgan",
+        "answer": "Daveigh Chase"
+      },
+      {
+        "question": "Esther",
+        "answer": "Isabelle Fuhrman"
+      },
+      {
+        "question": "Mia (Evil Dead 2013)",
+        "answer": "Jane Levy"
+      },
+      {
+        "question": "Rose the Hat",
+        "answer": "Rebecca Ferguson"
+      },
+      {
+        "question": "Pearl",
+        "answer": "Mia Goth"
+      },
+      {
+        "question": "Count Dracula — Dracula (1931)",
+        "answer": "Bela Lugosi"
+      },
+      {
+        "question": "Lestat — Interview with the Vampire",
+        "answer": "Tom Cruise"
+      },
+      {
+        "question": "Louis — Interview with the Vampire",
+        "answer": "Brad Pitt"
+      },
+      {
+        "question": "Claudia — Interview with the Vampire",
+        "answer": "Kirsten Dunst"
+      },
+      {
+        "question": "David — The Lost Boys",
+        "answer": "Kiefer Sutherland"
+      },
+      {
+        "question": "Jerry Dandrige — Fright Night (1985)",
+        "answer": "Chris Sarandon"
+      },
+      {
+        "question": "Selene — Underworld",
+        "answer": "Kate Beckinsale"
+      },
+      {
+        "question": "Viktor — Underworld",
+        "answer": "Bill Nighy"
+      },
+      {
+        "question": "Eli — Let the Right One In",
+        "answer": "Lina Leandersson"
+      },
+      {
+        "question": "Abby — Let Me In",
+        "answer": "Chloë Grace Moretz"
+      },
+      {
+        "question": "Miriam Blaylock — The Hunger",
+        "answer": "Catherine Deneuve"
+      },
+      {
+        "question": "John Blaylock — The Hunger",
+        "answer": "David Bowie"
+      },
+      {
+        "question": "Severen — Near Dark",
+        "answer": "Bill Paxton"
+      },
+      {
+        "question": "Adam — Only Lovers Left Alive",
+        "answer": "Tom Hiddleston"
+      },
+      {
+        "question": "Eve — Only Lovers Left Alive",
+        "answer": "Tilda Swinton"
+      },
+      {
+        "question": "Dracula — Bram Stoker's Dracula",
+        "answer": "Gary Oldman"
+      },
+      {
+        "question": "Blade",
+        "answer": "Wesley Snipes"
+      },
+      {
+        "question": "Adelaide Wilson",
+        "answer": "Lupita Nyong’o"
+      },
+      {
+        "question": "Hannibal Lecter",
+        "answer": "Anthony Hopkins"
+      },
+      {
+        "question": "Patrick Bateman",
+        "answer": "Christian Bale"
+      },
+      {
+        "question": "Art the Clown — Terrifier",
+        "answer": "David Howard Thornton"
+      },
+      {
+        "question": "The Grabber",
+        "answer": "Ethan Hawke"
+      },
+      {
+        "question": "Pamela Voorhees",
+        "answer": "Betsy Palmer"
+      }
+    ],
+    "TIMELINE OF TERROR": [
+      {
+        "question": "Psycho",
+        "answer": "1960"
+      },
+      {
+        "question": "Night of the Living Dead",
+        "answer": "1968"
+      },
+      {
+        "question": "The Exorcist",
+        "answer": "1973"
+      },
+      {
+        "question": "The Texas Chain Saw Massacre",
+        "answer": "1974"
+      },
+      {
+        "question": "Jaws",
+        "answer": "1975"
+      },
+      {
+        "question": "Halloween",
+        "answer": "1978"
+      },
+      {
+        "question": "Alien",
+        "answer": "1979"
+      },
+      {
+        "question": "Friday the 13th",
+        "answer": "1980"
+      },
+      {
+        "question": "The Thing",
+        "answer": "1982"
+      },
+      {
+        "question": "A Nightmare on Elm Street",
+        "answer": "1984"
+      },
+      {
+        "question": "The Fly",
+        "answer": "1986"
+      },
+      {
+        "question": "Hellraiser",
+        "answer": "1987"
+      },
+      {
+        "question": "Child's Play",
+        "answer": "1988"
+      },
+      {
+        "question": "Candyman",
+        "answer": "1992"
+      },
+      {
+        "question": "Scream",
+        "answer": "1996"
+      },
+      {
+        "question": "Ringu",
+        "answer": "1998"
+      },
+      {
+        "question": "The Blair Witch Project",
+        "answer": "1999"
+      },
+      {
+        "question": "28 Days Later",
+        "answer": "2002"
+      },
+      {
+        "question": "Saw",
+        "answer": "2004"
+      },
+      {
+        "question": "The Descent",
+        "answer": "2005"
+      },
+      {
+        "question": "Paranormal Activity",
+        "answer": "2007"
+      },
+      {
+        "question": "The Cabin in the Woods",
+        "answer": "2012"
+      },
+      {
+        "question": "The Conjuring",
+        "answer": "2013"
+      },
+      {
+        "question": "It Follows",
+        "answer": "2014"
+      },
+      {
+        "question": "The Witch",
+        "answer": "2015"
+      },
+      {
+        "question": "Train to Busan",
+        "answer": "2016"
+      },
+      {
+        "question": "Get Out",
+        "answer": "2017"
+      },
+      {
+        "question": "Hereditary",
+        "answer": "2018"
+      },
+      {
+        "question": "The Lighthouse",
+        "answer": "2019"
+      },
+      {
+        "question": "Barbarian",
+        "answer": "2022"
+      },
+      {
+        "question": "Talk to Me",
+        "answer": "2023"
+      },
+      {
+        "question": "Nosferatu",
+        "answer": "2024"
+      },
+      {
+        "question": "The Blob",
+        "answer": "1958"
+      },
+      {
+        "question": "Carrie",
+        "answer": "1976"
+      },
+      {
+        "question": "Misery",
+        "answer": "1990"
+      },
+      {
+        "question": "The Silence of the Lambs",
+        "answer": "1991"
+      },
+      {
+        "question": "The Haunting",
+        "answer": "1963"
+      },
+      {
+        "question": "Suspiria",
+        "answer": "1977"
+      },
+      {
+        "question": "An American Werewolf in London",
+        "answer": "1981"
+      },
+      {
+        "question": "Re-Animator",
+        "answer": "1985"
+      },
+      {
+        "question": "Pet Sematary",
+        "answer": "1989"
+      },
+      {
+        "question": "The Others",
+        "answer": "2001"
+      },
+      {
+        "question": "The Cabinet of Dr. Caligari",
+        "answer": "1920"
+      },
+      {
+        "question": "Häxan",
+        "answer": "1922"
+      },
+      {
+        "question": "Vampyr",
+        "answer": "1932"
+      },
+      {
+        "question": "Cat People",
+        "answer": "1942"
+      },
+      {
+        "question": "The Innocents",
+        "answer": "1961"
+      },
+      {
+        "question": "Carnival of Souls",
+        "answer": "1962"
+      },
+      {
+        "question": "Onibaba",
+        "answer": "1964"
+      },
+      {
+        "question": "The Cremator",
+        "answer": "1969"
+      },
+      {
+        "question": "Let's Scare Jessica to Death",
+        "answer": "1971"
+      }
+    ],
+    "THE RULES": [
+      {
+        "question": "Say His Name 3 Times",
+        "answer": "Beetlejuice"
+      },
+      {
+        "question": "Never Feed After Midnight",
+        "answer": "Gremlins"
+      },
+      {
+        "question": "Don't Fall Asleep",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "Say His Name 5 Times",
+        "answer": "Candyman"
+      },
+      {
+        "question": "Don't Cross the Streams",
+        "answer": "Ghostbusters"
+      },
+      {
+        "question": "Light the Black Flame Candle",
+        "answer": "Hocus Pocus"
+      },
+      {
+        "question": "Seven Days",
+        "answer": "The Ring"
+      },
+      {
+        "question": "Don't Make a Sound",
+        "answer": "A Quiet Place"
+      },
+      {
+        "question": "Don't Look at It",
+        "answer": "Bird Box"
+      },
+      {
+        "question": "Don't Say ‘I’ll Be Right Back’",
+        "answer": "Scream"
+      },
+      {
+        "question": "Keep the Jack-o’-Lantern Burning",
+        "answer": "Trick ’r Treat"
+      },
+      {
+        "question": "Stay in the Light",
+        "answer": "Lights Out"
+      },
+      {
+        "question": "Don't Read the Book Aloud",
+        "answer": "The Evil Dead"
+      },
+      {
+        "question": "Solve the Puzzle Box",
+        "answer": "Hellraiser"
+      },
+      {
+        "question": "The Cross Only Works with Faith",
+        "answer": "Fright Night"
+      },
+      {
+        "question": "Pass the Curse to Someone Else",
+        "answer": "It Follows"
+      },
+      {
+        "question": "You Can't Cheat Death",
+        "answer": "Final Destination"
+      },
+      {
+        "question": "Orca",
+        "answer": "Jaws"
+      },
+      {
+        "question": "Captain Howdy",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "Manon",
+        "answer": "The Craft"
+      },
+      {
+        "question": "666 Birthmark",
+        "answer": "The Omen"
+      },
+      {
+        "question": "Returns Every 27 Years",
+        "answer": "It"
+      },
+      {
+        "question": "Formula 86",
+        "answer": "The Witches"
+      },
+      {
+        "question": "Curse Born from Rage",
+        "answer": "The Grudge"
+      },
+      {
+        "question": "Never Go Past 90 Seconds",
+        "answer": "Talk to Me"
+      },
+      {
+        "question": "Ends at 7:00 AM",
+        "answer": "The Purge"
+      },
+      {
+        "question": "Lamia Torments You for 3 Days",
+        "answer": "Drag Me to Hell"
+      },
+      {
+        "question": "It Only Works If You Believe",
+        "answer": "The Skeleton Key"
+      },
+      {
+        "question": "Witness the Suicide, Inherit the Curse",
+        "answer": "Smile"
+      },
+      {
+        "question": "Black Zodiac",
+        "answer": "Thirteen Ghosts"
+      },
+      {
+        "question": "Hom-Dai",
+        "answer": "The Mummy (1999)"
+      },
+      {
+        "question": "Amulet Opens the Portal",
+        "answer": "The Monster Squad"
+      },
+      {
+        "question": "Kill the Head Vampire",
+        "answer": "The Lost Boys"
+      },
+      {
+        "question": "Burn the Imitation Cells",
+        "answer": "The Thing"
+      },
+      {
+        "question": "Sleep Lets the Pods Replace You",
+        "answer": "Invasion of the Body Snatchers"
+      },
+      {
+        "question": "Stay Off the Ground",
+        "answer": "Tremors"
+      },
+      {
+        "question": "Five Archetypes Feed the Ritual",
+        "answer": "The Cabin in the Woods"
+      },
+      {
+        "question": "Rage Spreads Through Blood",
+        "answer": "28 Days Later"
+      },
+      {
+        "question": "Trioxin Reanimates Corpses",
+        "answer": "The Return of the Living Dead"
+      },
+      {
+        "question": "A Camera Reveals the Spirit",
+        "answer": "Shutter"
+      },
+      {
+        "question": "Sunlight Kills the Vampires",
+        "answer": "30 Days of Night"
+      },
+      {
+        "question": "The Day Resets After Each Murder",
+        "answer": "Happy Death Day"
+      },
+      {
+        "question": "Transfer the Soul with Voodoo",
+        "answer": "Child’s Play"
+      },
+      {
+        "question": "It Hunts by Body Heat",
+        "answer": "Predator"
+      },
+      {
+        "question": "The Doubles Are Tethered Below",
+        "answer": "Us"
+      },
+      {
+        "question": "Drowned Sailors Return from the Sea",
+        "answer": "The Fog"
+      },
+      {
+        "question": "Astral Travel Opens the Door",
+        "answer": "Insidious"
+      },
+      {
+        "question": "Green Serum Reanimates Corpses",
+        "answer": "Re-Animator"
+      },
+      {
+        "question": "Feeds for 23 Days Every 23rd Spring",
+        "answer": "Jeepers Creepers"
+      },
+      {
+        "question": "The Broadcast Activates the Masks",
+        "answer": "Halloween III"
+      },
+      {
+        "question": "Die in the Game, Die for Real",
+        "answer": "Stay Alive"
+      }
+    ],
+    "WHERE NIGHTMARES LIVE": [
+      {
+        "question": "The Overlook Hotel",
+        "answer": "The Shining"
+      },
+      {
+        "question": "Nostromo spacecraft",
+        "answer": "Alien"
+      },
+      {
+        "question": "Haddonfield, Illinois",
+        "answer": "Halloween"
+      },
+      {
+        "question": "Camp Crystal Lake",
+        "answer": "Friday the 13th"
+      },
+      {
+        "question": "Springwood neighborhood",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "Amity Island",
+        "answer": "Jaws"
+      },
+      {
+        "question": "Bates Motel",
+        "answer": "Psycho"
+      },
+      {
+        "question": "Black Hills woods",
+        "answer": "The Blair Witch Project"
+      },
+      {
+        "question": "Armitage estate",
+        "answer": "Get Out"
+      },
+      {
+        "question": "Woodsboro, California",
+        "answer": "Scream"
+      },
+      {
+        "question": "Antarctic research station",
+        "answer": "The Thing"
+      },
+      {
+        "question": "Derry, Maine",
+        "answer": "It"
+      },
+      {
+        "question": "Gatlin, Nebraska",
+        "answer": "Children of the Corn"
+      },
+      {
+        "question": "Santa Carla, California",
+        "answer": "The Lost Boys"
+      },
+      {
+        "question": "Experimental starship recovered near Neptune",
+        "answer": "Event Horizon"
+      },
+      {
+        "question": "Freiburg dance academy",
+        "answer": "Suspiria"
+      },
+      {
+        "question": "London after the Rage outbreak",
+        "answer": "28 Days Later"
+      },
+      {
+        "question": "The Further",
+        "answer": "Insidious"
+      },
+      {
+        "question": "The Shimmer",
+        "answer": "Annihilation"
+      },
+      {
+        "question": "Remote cave system",
+        "answer": "The Descent"
+      },
+      {
+        "question": "Manderley estate",
+        "answer": "Rebecca"
+      },
+      {
+        "question": "Summerisle island",
+        "answer": "The Wicker Man"
+      },
+      {
+        "question": "The MacNeil home",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "The Freeling house",
+        "answer": "Poltergeist"
+      },
+      {
+        "question": "Cabrini-Green",
+        "answer": "Candyman"
+      },
+      {
+        "question": "Santa Mira",
+        "answer": "Invasion of the Body Snatchers"
+      },
+      {
+        "question": "Antonio Bay",
+        "answer": "The Fog"
+      },
+      {
+        "question": "Moesko Island",
+        "answer": "The Ring"
+      },
+      {
+        "question": "Miles County",
+        "answer": "Terrifier"
+      },
+      {
+        "question": "Barrow, Alaska",
+        "answer": "30 Days of Night"
+      },
+      {
+        "question": "Ambrose, Louisiana",
+        "answer": "House of Wax (2005)"
+      },
+      {
+        "question": "Ludlow, Maine",
+        "answer": "Pet Sematary"
+      },
+      {
+        "question": "Hobb's End",
+        "answer": "In the Mouth of Madness"
+      },
+      {
+        "question": "Nilbog",
+        "answer": "Troll 2"
+      },
+      {
+        "question": "Ogden Marsh, Iowa",
+        "answer": "The Crazies (2010)"
+      },
+      {
+        "question": "Midwich",
+        "answer": "Village of the Damned (1960)"
+      },
+      {
+        "question": "Raccoon City",
+        "answer": "Resident Evil"
+      },      {
+        "question": "Perfection, Nevada",
+        "answer": "Tremors"
+      },
+      {
+        "question": "Castle Rock, Maine",
+        "answer": "Needful Things"
+      },
+      {
+        "question": "Kingston Falls",
+        "answer": "Gremlins"
+      },
+      {
+        "question": "Harmony, Pennsylvania",
+        "answer": "My Bloody Valentine (2009)"
+      },
+      {
+        "question": "Warren Valley, Ohio",
+        "answer": "Trick 'r Treat"
+      },
+      {
+        "question": "Fairwater",
+        "answer": "The Frighteners"
+      },
+      {
+        "question": "Jerusalem’s Lot",
+        "answer": "Salem's Lot"
+      },
+      {
+        "question": "Devil’s Kettle, Minnesota",
+        "answer": "Jennifer's Body"
+      },
+      {
+        "question": "Lake Victoria",
+        "answer": "Piranha 3D"
+      },
+      {
+        "question": "Northern Maine Wilderness",
+        "answer": "Lake Placid"
+      },
+      {
+        "question": "Pleasant Valley",
+        "answer": "2001 Maniacs"
+      },
+      {
+        "question": "Paris Catacombs",
+        "answer": "As Above, So Below"
+      },
+      {
+        "question": "Detroit’s Abandoned District",
+        "answer": "Don't Breathe"
+      },
+      {
+        "question": "The Seven Doors Hotel",
+        "answer": "The Beyond"
+      }
+    ],
+    "FROM PAGE TO SCREAM": [
+      {
+        "question": "Stephen King",
+        "answer": "Carrie"
+      },
+      {
+        "question": "William Peter Blatty",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "Ira Levin",
+        "answer": "Rosemary's Baby"
+      },
+      {
+        "question": "Peter Benchley",
+        "answer": "Jaws"
+      },
+      {
+        "question": "Mary Shelley",
+        "answer": "Frankenstein (1931)"
+      },
+      {
+        "question": "Shirley Jackson",
+        "answer": "The Haunting (1963)"
+      },
+      {
+        "question": "Thomas Harris",
+        "answer": "The Silence of the Lambs"
+      },
+      {
+        "question": "Adam Nevill",
+        "answer": "The Ritual"
+      },
+      {
+        "question": "Susan Hill",
+        "answer": "The Woman in Black"
+      },
+      {
+        "question": "Scott Smith",
+        "answer": "The Ruins"
+      },
+      {
+        "question": "John Ajvide Lindqvist",
+        "answer": "Let the Right One In"
+      },
+      {
+        "question": "Koji Suzuki",
+        "answer": "Ringu"
+      },
+      {
+        "question": "Anne Rice",
+        "answer": "Interview with the Vampire"
+      },
+      {
+        "question": "Max Brooks",
+        "answer": "World War Z"
+      },
+      {
+        "question": "John W. Campbell Jr.",
+        "answer": "The Thing"
+      },
+      {
+        "question": "Daphne du Maurier",
+        "answer": "Don't Look Now"
+      },
+      {
+        "question": "H. P. Lovecraft",
+        "answer": "Re-Animator"
+      },
+      {
+        "question": "Richard Matheson",
+        "answer": "The Last Man on Earth"
+      },
+      {
+        "question": "Jack Finney",
+        "answer": "Invasion of the Body Snatchers"
+      },
+      {
+        "question": "Whitley Strieber",
+        "answer": "The Hunger"
+      },
+      {
+        "question": "Dean Koontz",
+        "answer": "Phantoms"
+      },
+      {
+        "question": "Kazuo Umezu",
+        "answer": "The Drifting Classroom"
+      },
+      {
+        "question": "Robert Bloch",
+        "answer": "Psycho"
+      },
+      {
+        "question": "Josh Malerman",
+        "answer": "Bird Box"
+      },
+      {
+        "question": "Peter Straub",
+        "answer": "Ghost Story"
+      },
+      {
+        "question": "Jack Ketchum",
+        "answer": "The Girl Next Door"
+      },
+      {
+        "question": "Jay Anson",
+        "answer": "The Amityville Horror"
+      },
+      {
+        "question": "William Hjortsberg",
+        "answer": "Angel Heart"
+      },
+      {
+        "question": "Thomas Tryon",
+        "answer": "The Other"
+      },
+      {
+        "question": "Bram Stoker",
+        "answer": "Dracula (1931)"
+      },
+      {
+        "question": "Robert Louis Stevenson",
+        "answer": "Dr. Jekyll and Mr. Hyde (1931)"
+      },
+      {
+        "question": "Gaston Leroux",
+        "answer": "The Phantom of the Opera (1925)"
+      },
+      {
+        "question": "Henry James",
+        "answer": "The Innocents"
+      },
+      {
+        "question": "Clive Barker",
+        "answer": "Hellraiser"
+      },
+      {
+        "question": "Ray Bradbury",
+        "answer": "Something Wicked This Way Comes"
+      },
+      {
+        "question": "Edgar Allan Poe",
+        "answer": "The Masque of the Red Death"
+      },
+      {
+        "question": "Washington Irving",
+        "answer": "Sleepy Hollow"
+      },
+      {
+        "question": "William Goldman",
+        "answer": "Magic"
+      },
+      {
+        "question": "John Farris",
+        "answer": "The Fury"
+      },
+      {
+        "question": "Jeffrey Konvitz",
+        "answer": "The Sentinel"
+      },
+      {
+        "question": "Paul Tremblay",
+        "answer": "Knock at the Cabin"
+      },
+      {
+        "question": "Joe Hill",
+        "answer": "The Black Phone"
+      },
+      {
+        "question": "Ryū Murakami",
+        "answer": "Audition"
+      },
+      {
+        "question": "Koushun Takami",
+        "answer": "Battle Royale"
+      },
+      {
+        "question": "Alvin Schwartz",
+        "answer": "Scary Stories to Tell in the Dark"
+      },
+      {
+        "question": "Ramsey Campbell",
+        "answer": "The Nameless"
+      },
+      {
+        "question": "Sarah Waters",
+        "answer": "The Little Stranger"
+      },
+      {
+        "question": "Steve Niles",
+        "answer": "30 Days of Night"
+      },
+      {
+        "question": "Sheridan Le Fanu",
+        "answer": "The Vampire Lovers"
+      },
+      {
+        "question": "H. G. Wells",
+        "answer": "The Invisible Man (1933)"
+      },
+      {
+        "question": "Oscar Wilde",
+        "answer": "The Picture of Dorian Gray (1945)"
+      }
+    ],
+    "KILLER'S ARSENAL": [
+      {
+        "question": "Michael Myers",
+        "answer": "Kitchen knife"
+      },
+      {
+        "question": "Freddy Krueger",
+        "answer": "Bladed glove"
+      },
+      {
+        "question": "Jason Voorhees",
+        "answer": "Machete"
+      },
+      {
+        "question": "Leatherface",
+        "answer": "Chainsaw"
+      },
+      {
+        "question": "Ghostface",
+        "answer": "Buck 120-style knife"
+      },
+      {
+        "question": "The Fisherman",
+        "answer": "Hook"
+      },
+      {
+        "question": "The Miner",
+        "answer": "Pickaxe"
+      },
+      {
+        "question": "Chucky",
+        "answer": "Knife"
+      },
+      {
+        "question": "Candyman",
+        "answer": "Hook hand"
+      },
+      {
+        "question": "Pinhead",
+        "answer": "Hooks and chains"
+      },
+      {
+        "question": "Jigsaw / John Kramer",
+        "answer": "Traps"
+      },
+      {
+        "question": "Art the Clown",
+        "answer": "Knives and improvised weapons"
+      },
+      {
+        "question": "Cropsey",
+        "answer": "Garden shears"
+      },
+      {
+        "question": "Annie Wilkes",
+        "answer": "Sledgehammer"
+      },
+      {
+        "question": "Patrick Bateman",
+        "answer": "Axe"
+      },
+      {
+        "question": "The Collector",
+        "answer": "Booby traps"
+      },
+      {
+        "question": "Victor Crowley's signature weapon",
+        "answer": "Hatchet"
+      },
+      {
+        "question": "Leslie Vernon",
+        "answer": "Sickle"
+      },
+      {
+        "question": "The Grabber",
+        "answer": "Belt"
+      },
+      {
+        "question": "Mick Taylor",
+        "answer": "Hunting knife"
+      },
+      {
+        "question": "The Tall Man",
+        "answer": "Sentinel spheres"
+      },
+      {
+        "question": "Leprechaun",
+        "answer": "Shillelagh"
+      },
+      {
+        "question": "Killer Klowns",
+        "answer": "Cotton-candy gun"
+      },
+      {
+        "question": "Matt Cordell",
+        "answer": "Nightstick"
+      },
+      {
+        "question": "Horace Pinker",
+        "answer": "Electricity"
+      },
+      {
+        "question": "Hannibal Lecter",
+        "answer": "Teeth"
+      },
+      {
+        "question": "Pearl",
+        "answer": "Pitchfork"
+      },
+      {
+        "question": "M3GAN",
+        "answer": "Paper cutter"
+      },
+      {
+        "question": "Frank Zito",
+        "answer": "Scalping knife"
+      },
+      {
+        "question": "The Creeper",
+        "answer": "Throwing star"
+      },
+      {
+        "question": "Pumpkinhead",
+        "answer": "Claws"
+      },
+      {
+        "question": "Billy Chapman",
+        "answer": "Fire axe"
+      },
+      {
+        "question": "The Prowler",
+        "answer": "Bayonet"
+      },
+      {
+        "question": "The Driller Killer",
+        "answer": "Power drill"
+      },
+      {
+        "question": "Chromeskull",
+        "answer": "Chrome skull mask"
+      },
+      {
+        "question": "The Man in the Mask",
+        "answer": "Sackcloth hood"
+      },
+      {
+        "question": "Esther",
+        "answer": "Ribbon choker"
+      },
+      {
+        "question": "Babyface",
+        "answer": "Doll-face mask"
+      },
+      {
+        "question": "The Phantom Killer",
+        "answer": "Burlap hood"
+      },
+      {
+        "question": "Francis Dolarhyde",
+        "answer": "Red Dragon tattoo"
+      },
+      {
+        "question": "The Jackal",
+        "answer": "Head cage"
+      },
+      {
+        "question": "Pamela Voorhees",
+        "answer": "Bowie knife"
+      },
+      {
+        "question": "Dr. Giggles",
+        "answer": "Medical bag"
+      },
+      {
+        "question": "The Dentist",
+        "answer": "Dental drill"
+      },
+      {
+        "question": "Mary Mason",
+        "answer": "Surgical tools"
+      },
+      {
+        "question": "Farmer Vincent",
+        "answer": "Meat smoker"
+      },
+      {
+        "question": "The Djinn",
+        "answer": "Fire opal"
+      },
+      {
+        "question": "Jacob Goodnight",
+        "answer": "Chain hook"
+      },
+      {
+        "question": "Gabriel — Malignant",
+        "answer": "Trophy blade"
+      },
+      {
+        "question": "The Man — Hush",
+        "answer": "Crossbow"
+      },
+      {
+        "question": "Billy — Black Christmas",
+        "answer": "Glass unicorn"
+      }
+    ],
+    "LAST WORDS": [
+      {
+        "question": "Here's Johnny!",
+        "answer": "The Shining"
+      },
+      {
+        "question": "We all go a little mad sometimes.",
+        "answer": "Psycho"
+      },
+      {
+        "question": "They're here.",
+        "answer": "Poltergeist"
+      },
+      {
+        "question": "Be afraid. Be very afraid.",
+        "answer": "The Fly"
+      },
+      {
+        "question": "I see dead people.",
+        "answer": "The Sixth Sense"
+      },
+      {
+        "question": "Do you like scary movies?",
+        "answer": "Scream"
+      },
+      {
+        "question": "Welcome to prime time.",
+        "answer": "A Nightmare on Elm Street 3"
+      },
+      {
+        "question": "We have such sights to show you.",
+        "answer": "Hellraiser"
+      },
+      {
+        "question": "Game over.",
+        "answer": "Saw"
+      },
+      {
+        "question": "They're coming to get you, Barbra.",
+        "answer": "Night of the Living Dead"
+      },
+      {
+        "question": "Sometimes dead is better.",
+        "answer": "Pet Sematary"
+      },
+      {
+        "question": "Get away from her, you bitch!",
+        "answer": "Aliens"
+      },
+      {
+        "question": "It's alive!",
+        "answer": "Frankenstein"
+      },
+      {
+        "question": "One of us! One of us!",
+        "answer": "Freaks"
+      },
+      {
+        "question": "They're here already! You're next! You're next!",
+        "answer": "Invasion of the Body Snatchers"
+      },
+      {
+        "question": "I'm your No. 1 fan.",
+        "answer": "Misery"
+      },
+      {
+        "question": "The party's over!",
+        "answer": "Braindead"
+      },
+      {
+        "question": "I know who I am!",
+        "answer": "Angel Heart"
+      },
+      {
+        "question": "Vanity, definitely my favorite sin.",
+        "answer": "The Devil's Advocate"
+      },
+      {
+        "question": "Nothing is what it seems.",
+        "answer": "Don't Look Now"
+      },
+      {
+        "question": "Now, you're in the sunken place.",
+        "answer": "Get Out"
+      },
+      {
+        "question": "We don't deserve the impossible.",
+        "answer": "Nope"
+      },
+      {
+        "question": "Whatever happened last time, expect the opposite.",
+        "answer": "Scream VI"
+      },
+      {
+        "question": "You've got red on you.",
+        "answer": "Shaun of the Dead"
+      },
+      {
+        "question": "My family's always been in meat.",
+        "answer": "The Texas Chain Saw Massacre"
+      },
+      {
+        "question": "There's evil in the wood.",
+        "answer": "The Witch"
+      },
+      {
+        "question": "I have to return some videotapes.",
+        "answer": "American Psycho"
+      },
+      {
+        "question": "Thrill me.",
+        "answer": "Night of the Creeps"
+      },
+      {
+        "question": "Even Hell has its heroes, señor.",
+        "answer": "The Ninth Gate"
+      },
+      {
+        "question": "I want a divorce!",
+        "answer": "Ready or Not"
+      },
+      {
+        "question": "Because you were home.",
+        "answer": "The Strangers"
+      },
+      {
+        "question": "I let you in.",
+        "answer": "Talk to Me"
+      },
+      {
+        "question": "I ain't got time to bleed.",
+        "answer": "Predator"
+      },
+      {
+        "question": "Long live the new flesh.",
+        "answer": "Videodrome"
+      },
+      {
+        "question": "They're us, that's all.",
+        "answer": "Dawn of the Dead"
+      },
+      {
+        "question": "Whatever you do, don't fall asleep.",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "They're all gonna laugh at you.",
+        "answer": "Carrie"
+      },
+      {
+        "question": "It was Beauty killed the Beast.",
+        "answer": "King Kong"
+      },
+      {
+        "question": "What's in the box?!",
+        "answer": "Se7en"
+      },
+      {
+        "question": "You gotta be fucking kidding.",
+        "answer": "The Thing"
+      },
+      {
+        "question": "Join us! Join us! Join us!",
+        "answer": "The Evil Dead"
+      },
+      {
+        "question": "Wolfman's got nards!",
+        "answer": "The Monster Squad"
+      },
+      {
+        "question": "Send... more... paramedics.",
+        "answer": "The Return of the Living Dead"
+      },
+      {
+        "question": "Drink from me. And live forever.",
+        "answer": "Interview with the Vampire"
+      },
+      {
+        "question": "Why aren't you eating me?",
+        "answer": "Fido"
+      },
+      {
+        "question": "Sleep well, Mr. Harker.",
+        "answer": "Horror of Dracula"
+      },
+      {
+        "question": "Death has come to your little town, sheriff.",
+        "answer": "Halloween"
+      },
+      {
+        "question": "You play a good game, boy.",
+        "answer": "Phantasm"
+      },
+      {
+        "question": "This is no dream! This is really happening!",
+        "answer": "Rosemary's Baby"
+      },
+      {
+        "question": "It's all for you, Damien!",
+        "answer": "The Omen"
+      },
+      {
+        "question": "I never drink... wine.",
+        "answer": "Dracula (1931)"
+      },
+      {
+        "question": "I have crossed oceans of time to find you.",
+        "answer": "Bram Stoker's Dracula"
+      }
+    ],
+    "HAUNTED GROUND": [
+      {
+        "question": "The Freeling home",
+        "answer": "Poltergeist"
+      },
+      {
+        "question": "Hill House",
+        "answer": "The Haunting"
+      },
+      {
+        "question": "The Perron farmhouse",
+        "answer": "The Conjuring"
+      },
+      {
+        "question": "The Lambert home",
+        "answer": "Insidious"
+      },
+      {
+        "question": "Eel Marsh House",
+        "answer": "The Woman in Black"
+      },
+      {
+        "question": "Emeric Belasco's notorious haunted estate",
+        "answer": "The Legend of Hell House"
+      },
+      {
+        "question": "The Marsten House",
+        "answer": "Salem's Lot"
+      },
+      {
+        "question": "The house on Ocean Avenue",
+        "answer": "The Amityville Horror"
+      },
+      {
+        "question": "Nancy Thompson's house in Springwood",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "The Myers house in Haddonfield",
+        "answer": "Halloween"
+      },
+      {
+        "question": "The MacNeil residence in Georgetown",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "The Bramford apartment building",
+        "answer": "Rosemary's Baby"
+      },
+      {
+        "question": "The Creed family home in Ludlow",
+        "answer": "Pet Sematary"
+      },
+      {
+        "question": "The Le Domas estate",
+        "answer": "Ready or Not"
+      },
+      {
+        "question": "The Sandin family home",
+        "answer": "The Purge"
+      },
+      {
+        "question": "The Davison family country house",
+        "answer": "You're Next"
+      },
+      {
+        "question": "The Robeson house",
+        "answer": "The People Under the Stairs"
+      },
+      {
+        "question": "The Blind Man's house in Detroit",
+        "answer": "Don't Breathe"
+      },
+      {
+        "question": "Katie and Micah's San Diego home",
+        "answer": "Paranormal Activity"
+      },
+      {
+        "question": "Ellison Oswalt's new family home",
+        "answer": "Sinister"
+      },
+      {
+        "question": "The Graham family home and treehouse",
+        "answer": "Hereditary"
+      },
+      {
+        "question": "Kevin and Kaylee's darkened family home",
+        "answer": "Skinamarink"
+      },
+      {
+        "question": "Yankee Pedlar's final weekend before closing",
+        "answer": "The Innkeepers"
+      },
+      {
+        "question": "Bly estate",
+        "answer": "The Innocents"
+      },
+      {
+        "question": "The Stewart family mansion on Jersey",
+        "answer": "The Others"
+      },
+      {
+        "question": "Santa Lucía orphanage",
+        "answer": "The Devil's Backbone"
+      },
+      {
+        "question": "Rookford boarding school",
+        "answer": "The Awakening"
+      },
+      {
+        "question": "Windward House",
+        "answer": "The Uninvited"
+      },
+      {
+        "question": "Former funeral-parlor home",
+        "answer": "The Haunting in Connecticut"
+      },
+      {
+        "question": "The Hodgson home in Enfield",
+        "answer": "The Conjuring 2"
+      },
+      {
+        "question": "The Mullins farmhouse and orphanage",
+        "answer": "Annabelle: Creation"
+      },
+      {
+        "question": "St. Carta Monastery",
+        "answer": "The Nun"
+      },
+      {
+        "question": "The Zander family home",
+        "answer": "Ouija: Origin of Evil"
+      },
+      {
+        "question": "The Wells family home",
+        "answer": "Lights Out"
+      },
+      {
+        "question": "The Garcia family home",
+        "answer": "The Curse of La Llorona"
+      },
+      {
+        "question": "The Brenek family home",
+        "answer": "The Possession"
+      },
+      {
+        "question": "The Sweetzer farm",
+        "answer": "The Last Exorcism"
+      },
+      {
+        "question": "The grandparents' Pennsylvania farmhouse",
+        "answer": "The Visit"
+      },
+      {
+        "question": "The Heelshire mansion",
+        "answer": "The Boy"
+      },
+      {
+        "question": "The remote Maine estate",
+        "answer": "The Turning"
+      },
+      {
+        "question": "The cursed Tokyo house",
+        "answer": "The Grudge"
+      },
+      {
+        "question": "The cabin and well on Izu",
+        "answer": "Ringu"
+      },
+      {
+        "question": "Collingwood Psychiatric Hospital",
+        "answer": "Grave Encounters"
+      },
+      {
+        "question": "Danvers State Hospital",
+        "answer": "Session 9"
+      },
+      {
+        "question": "North Bend Psychiatric Hospital",
+        "answer": "The Ward"
+      },
+      {
+        "question": "Vannacutt Psychiatric Institute",
+        "answer": "House on Haunted Hill (1999)"
+      },
+      {
+        "question": "Marsh County Hospital",
+        "answer": "The Void"
+      },
+      {
+        "question": "The Tilden family morgue",
+        "answer": "The Autopsy of Jane Doe"
+      },
+      {
+        "question": "The Paris Catacombs",
+        "answer": "As Above, So Below"
+      },
+      {
+        "question": "The London Underground tunnels",
+        "answer": "Creep"
+      },
+      {
+        "question": "Tanz Dance Academy",
+        "answer": "Suspiria"
+      },
+      {
+        "question": "The Metropol cinema",
+        "answer": "Demons"
+      }
+    ],
+    "FINAL GIRLS & SURVIVORS": [
+      {
+        "question": "Laurie Strode",
+        "answer": "Halloween"
+      },
+      {
+        "question": "Sidney Prescott",
+        "answer": "Scream"
+      },
+      {
+        "question": "Nancy Thompson",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "Sally Hardesty",
+        "answer": "The Texas Chain Saw Massacre"
+      },
+      {
+        "question": "Ellen Ripley",
+        "answer": "Alien"
+      },
+      {
+        "question": "Kirsty Cotton",
+        "answer": "Hellraiser"
+      },
+      {
+        "question": "Alice Hardy",
+        "answer": "Friday the 13th"
+      },
+      {
+        "question": "Ginny Field",
+        "answer": "Friday the 13th Part 2"
+      },
+      {
+        "question": "Tree Gelbman",
+        "answer": "Happy Death Day"
+      },
+      {
+        "question": "Grace Le Domas",
+        "answer": "Ready or Not"
+      },
+      {
+        "question": "Erin Harson",
+        "answer": "You're Next"
+      },
+      {
+        "question": "Mia Allen",
+        "answer": "Evil Dead"
+      },
+      {
+        "question": "Dana Polk",
+        "answer": "The Cabin in the Woods"
+      },
+      {
+        "question": "Adelaide Wilson",
+        "answer": "Us"
+      },
+      {
+        "question": "Jay Height",
+        "answer": "It Follows"
+      },
+      {
+        "question": "Max Cartwright",
+        "answer": "The Final Girls"
+      },
+      {
+        "question": "Sarah Carter",
+        "answer": "The Descent"
+      },
+      {
+        "question": "Maddie Young",
+        "answer": "Hush"
+      },
+      {
+        "question": "Jen",
+        "answer": "Revenge"
+      },
+      {
+        "question": "Cecilia Kass",
+        "answer": "The Invisible Man"
+      },
+      {
+        "question": "Dani Ardor",
+        "answer": "Midsommar"
+      },
+      {
+        "question": "Naru",
+        "answer": "Prey"
+      },
+      {
+        "question": "Tess Marshall",
+        "answer": "Barbarian"
+      },
+      {
+        "question": "Sienna Shaw",
+        "answer": "Terrifier 2"
+      },
+      {
+        "question": "Chris Higgins",
+        "answer": "Friday the 13th Part III"
+      },
+      {
+        "question": "Stretch",
+        "answer": "The Texas Chainsaw Massacre 2"
+      },
+      {
+        "question": "Suzy Bannion",
+        "answer": "Suspiria"
+      },
+      {
+        "question": "Jess Bradford",        "answer": "Black Christmas"
+      },
+      {
+        "question": "Jannicke",
+        "answer": "Cold Prey"
+      },
+      {
+        "question": "Kylie Bucknell",
+        "answer": "Housebound"
+      },
+      {
+        "question": "Michelle",
+        "answer": "10 Cloverfield Lane"
+      },
+      {
+        "question": "Arkin O'Brien",
+        "answer": "The Collector"
+      },
+      {
+        "question": "Crystal Creasey",
+        "answer": "The Hunt"
+      },
+      {
+        "question": "Rocky",
+        "answer": "Don't Breathe"
+      },
+      {
+        "question": "Noa",
+        "answer": "Fresh"
+      },
+      {
+        "question": "Brynn Adams",
+        "answer": "No One Will Save You"
+      },
+      {
+        "question": "Julie James",
+        "answer": "I Know What You Did Last Summer"
+      },
+      {
+        "question": "Pam MacDonald",
+        "answer": "The Prowler"
+      },
+      {
+        "question": "Amy Harper",
+        "answer": "The Funhouse"
+      },
+      {
+        "question": "Trish Jarvis",
+        "answer": "Friday the 13th: The Final Chapter"
+      },
+      {
+        "question": "Tina Shepard",
+        "answer": "Friday the 13th Part VII"
+      },
+      {
+        "question": "Megan Garris",
+        "answer": "Friday the 13th Part VI"
+      },
+      {
+        "question": "Rennie Wickham",
+        "answer": "Friday the 13th Part VIII"
+      },
+      {
+        "question": "Kara Strode",
+        "answer": "Halloween: The Curse of Michael Myers"
+      },
+      {
+        "question": "Rachel Carruthers",
+        "answer": "Halloween 4"
+      },
+      {
+        "question": "Natalie Simon",
+        "answer": "Urban Legend"
+      },
+      {
+        "question": "Sarah Bailey",
+        "answer": "The Craft"
+      },
+      {
+        "question": "Erin",
+        "answer": "The Texas Chainsaw Massacre (2003)"
+      },
+      {
+        "question": "Deena Johnson",
+        "answer": "Fear Street Part Three: 1666"
+      },
+      {
+        "question": "Zoey Davis",
+        "answer": "Escape Room"
+      },
+      {
+        "question": "Jessie Burlingame",
+        "answer": "Gerald's Game"
+      }
+    ],
+    "SCREAM ROYALTY": [
+      {
+        "question": "Jamie Lee Curtis",
+        "answer": "Halloween"
+      },
+      {
+        "question": "Neve Campbell",
+        "answer": "Scream"
+      },
+      {
+        "question": "Robert Englund",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "Tony Todd",
+        "answer": "Final Destination"
+      },
+      {
+        "question": "Bruce Campbell",
+        "answer": "Evil Dead II"
+      },
+      {
+        "question": "Sigourney Weaver",
+        "answer": "Alien"
+      },
+      {
+        "question": "Linda Blair",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "Bill Skarsgård",
+        "answer": "It"
+      },
+      {
+        "question": "Mia Goth",
+        "answer": "X"
+      },
+      {
+        "question": "Jenna Ortega",
+        "answer": "Scream VI"
+      },
+      {
+        "question": "Lupita Nyong'o",
+        "answer": "Us"
+      },
+      {
+        "question": "Samara Weaving",
+        "answer": "Ready or Not"
+      },
+      {
+        "question": "Barbara Crampton",
+        "answer": "Re-Animator"
+      },
+      {
+        "question": "Jeffrey Combs",
+        "answer": "From Beyond"
+      },
+      {
+        "question": "Lin Shaye",
+        "answer": "Insidious"
+      },
+      {
+        "question": "Heather Langenkamp",
+        "answer": "Wes Craven's New Nightmare"
+      },
+      {
+        "question": "Doug Bradley",
+        "answer": "Hellbound: Hellraiser II"
+      },
+      {
+        "question": "Brad Dourif",
+        "answer": "Child's Play"
+      },
+      {
+        "question": "Dee Wallace",
+        "answer": "Cujo"
+      },
+      {
+        "question": "Katharine Isabelle",
+        "answer": "Ginger Snaps"
+      },
+      {
+        "question": "Maika Monroe",
+        "answer": "It Follows"
+      },
+      {
+        "question": "Anya Taylor-Joy",
+        "answer": "The Witch"
+      },
+      {
+        "question": "Essie Davis",
+        "answer": "The Babadook"
+      },
+      {
+        "question": "Toni Collette",
+        "answer": "Hereditary"
+      },
+      {
+        "question": "Patrick Wilson",
+        "answer": "The Conjuring"
+      },
+      {
+        "question": "Christopher Lee",
+        "answer": "Horror of Dracula"
+      },
+      {
+        "question": "Vincent Price",
+        "answer": "The Abominable Dr. Phibes"
+      },
+      {
+        "question": "Peter Cushing",
+        "answer": "The Curse of Frankenstein"
+      },
+      {
+        "question": "Boris Karloff",
+        "answer": "Bride of Frankenstein"
+      },
+      {
+        "question": "Barbara Steele",
+        "answer": "Black Sunday"
+      },
+      {
+        "question": "Ingrid Pitt",
+        "answer": "The Vampire Lovers"
+      },
+      {
+        "question": "Donald Pleasence",
+        "answer": "Prince of Darkness"
+      },
+      {
+        "question": "Udo Kier",
+        "answer": "Blood for Dracula"
+      },
+      {
+        "question": "Reggie Nalder",
+        "answer": "Salem's Lot"
+      },
+      {
+        "question": "Fiona Dourif",
+        "answer": "Curse of Chucky"
+      },
+      {
+        "question": "Larry Fessenden",
+        "answer": "Habit"
+      },
+      {
+        "question": "Ken Foree",
+        "answer": "Dawn of the Dead"
+      },
+      {
+        "question": "Marilyn Burns",
+        "answer": "The Texas Chain Saw Massacre"
+      },
+      {
+        "question": "Danielle Harris",
+        "answer": "Hatchet II"
+      },
+      {
+        "question": "Felissa Rose",
+        "answer": "Sleepaway Camp"
+      },
+      {
+        "question": "Kane Hodder",
+        "answer": "Hatchet"
+      },
+      {
+        "question": "Tom Atkins",
+        "answer": "Night of the Creeps"
+      },
+      {
+        "question": "Adrienne Barbeau",
+        "answer": "The Fog"
+      },
+      {
+        "question": "Bill Moseley",
+        "answer": "The Devil's Rejects"
+      },
+      {
+        "question": "Sid Haig",
+        "answer": "House of 1000 Corpses"
+      },
+      {
+        "question": "Caroline Williams",
+        "answer": "The Texas Chainsaw Massacre 2"
+      },
+      {
+        "question": "David Naughton",
+        "answer": "An American Werewolf in London"
+      },
+      {
+        "question": "Joe Pilato",
+        "answer": "Day of the Dead"
+      },
+      {
+        "question": "Betsy Palmer",
+        "answer": "Friday the 13th"
+      },
+      {
+        "question": "Linnea Quigley",
+        "answer": "The Return of the Living Dead"
+      },
+      {
+        "question": "Ashley Laurence",
+        "answer": "Hellraiser"
+      }
+    ],
+    "MONSTER MAKERS": [
+      {
+        "question": "Jack Pierce",
+        "answer": "Frankenstein"
+      },
+      {
+        "question": "Millicent Patrick",
+        "answer": "Creature from the Black Lagoon"
+      },
+      {
+        "question": "Dick Smith",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "Rick Baker",
+        "answer": "An American Werewolf in London"
+      },
+      {
+        "question": "Rob Bottin",
+        "answer": "The Thing"
+      },
+      {
+        "question": "Stan Winston",
+        "answer": "Aliens"
+      },
+      {
+        "question": "Tom Savini",
+        "answer": "Dawn of the Dead"
+      },
+      {
+        "question": "Greg Nicotero",
+        "answer": "Day of the Dead"
+      },
+      {
+        "question": "Chris Walas",
+        "answer": "The Fly"
+      },
+      {
+        "question": "David Miller",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "Screaming Mad George",
+        "answer": "Society"
+      },
+      {
+        "question": "Steve Johnson",
+        "answer": "Species"
+      },
+      {
+        "question": "Mark Shostrom",
+        "answer": "Evil Dead II"
+      },
+      {
+        "question": "Bob Keen",
+        "answer": "Hellraiser"
+      },
+      {
+        "question": "Bart Mixon",
+        "answer": "It (1990)"
+      },
+      {
+        "question": "Matthew Mungle",
+        "answer": "Bram Stoker's Dracula"
+      },
+      {
+        "question": "Ve Neill",
+        "answer": "Beetlejuice"
+      },
+      {
+        "question": "Alec Gillis",
+        "answer": "Tremors"
+      },
+      {
+        "question": "Tom Woodruff Jr.",
+        "answer": "Alien 3"
+      },
+      {
+        "question": "Giannetto De Rossi",
+        "answer": "Zombie"
+      },
+      {
+        "question": "Brian Wade",
+        "answer": "The Blob (1988)"
+      },
+      {
+        "question": "Roy Ashton",
+        "answer": "The Curse of the Werewolf"
+      },
+      {
+        "question": "Phil Leakey",
+        "answer": "The Curse of Frankenstein"
+      },
+      {
+        "question": "Bud Westmore",
+        "answer": "This Island Earth"
+      },
+      {
+        "question": "Wally Westmore",
+        "answer": "Dr. Jekyll and Mr. Hyde (1931)"
+      },
+      {
+        "question": "Eiji Tsuburaya",
+        "answer": "Godzilla"
+      },
+      {
+        "question": "Marcel Delgado",
+        "answer": "King Kong"
+      },
+      {
+        "question": "Ray Harryhausen",
+        "answer": "20 Million Miles to Earth"
+      },
+      {
+        "question": "Carlo Rambaldi",
+        "answer": "Alien"
+      },
+      {
+        "question": "Gabe Bartalos",
+        "answer": "Frankenhooker"
+      },
+      {
+        "question": "Gary J. Tunnicliffe",
+        "answer": "Hellraiser III: Hell on Earth"
+      },
+      {
+        "question": "Tony Gardner",
+        "answer": "Seed of Chucky"
+      },
+      {
+        "question": "David LeRoy Anderson",
+        "answer": "Dawn of the Dead (2004)"
+      },
+      {
+        "question": "Mike Elizalde",
+        "answer": "Hellboy"
+      },
+      {
+        "question": "Steve Wang",
+        "answer": "Predator"
+      },
+      {
+        "question": "Shannon Shea",
+        "answer": "Predator 2"
+      },
+      {
+        "question": "John Chambers",
+        "answer": "Planet of the Apes"
+      },
+      {
+        "question": "Mark Coulier",
+        "answer": "Suspiria (2018)"
+      },
+      {
+        "question": "John Carl Buechler",
+        "answer": "Ghoulies"
+      },
+      {
+        "question": "Kevin Yagher",
+        "answer": "A Nightmare on Elm Street 2"
+      },
+      {
+        "question": "Robert Kurtzman",
+        "answer": "Wishmaster"
+      },
+      {
+        "question": "Howard Berger",
+        "answer": "Drag Me to Hell"
+      },
+      {
+        "question": "Rob Hall",
+        "answer": "Laid to Rest"
+      },
+      {
+        "question": "Todd Masters",
+        "answer": "Tales from the Crypt: Demon Knight"
+      },
+      {
+        "question": "Greg Cannom",
+        "answer": "The Lost Boys"
+      },
+      {
+        "question": "Chris Nelson",
+        "answer": "Halloween (2018)"
+      },
+      {
+        "question": "Neill Gorton",
+        "answer": "The Descent"
+      },
+      {
+        "question": "Vincent J. Guastini",
+        "answer": "Dogma"
+      },
+      {
+        "question": "Mike Marino",
+        "answer": "Black Swan"
+      },
+      {
+        "question": "Mike Deak",
+        "answer": "From Beyond"
+      },
+      {
+        "question": "Robert Green Hall",
+        "answer": "Terminator 2: Judgment Day"
+      }
+    ],
+    "ON THE SCREEN": [
+      {
+        "question": "Room 237",
+        "answer": "The Shining"
+      },
+      {
+        "question": "Red Balloon",
+        "answer": "IT"
+      },
+      {
+        "question": "Silver Shamrock Masks",
+        "answer": "Halloween III"
+      },
+      {
+        "question": "Necronomicon",
+        "answer": "The Evil Dead"
+      },
+      {
+        "question": "Reverse Bear Trap",
+        "answer": "Saw"
+      },
+      {
+        "question": "Bone Furniture",
+        "answer": "The Texas Chain Saw Massacre"
+      },
+      {
+        "question": "Pea Soup Vomit",
+        "answer": "The Exorcist"
+      },
+      {
+        "question": "Clown Doll",
+        "answer": "Poltergeist"
+      },
+      {
+        "question": "Black Phillip",
+        "answer": "The Witch"
+      },
+      {
+        "question": "Head Spider",
+        "answer": "The Thing"
+      },
+      {
+        "question": "Possessed Hand",
+        "answer": "Evil Dead II"
+      },
+      {
+        "question": "Ceiling Crawl",
+        "answer": "The Exorcist III"
+      },
+      {
+        "question": "Red Demon",
+        "answer": "Insidious"
+      },
+      {
+        "question": "Teacup Hypnosis",
+        "answer": "Get Out"
+      },
+      {
+        "question": "Red Raincoat",
+        "answer": "Don’t Look Now"
+      },
+      {
+        "question": "Lawn Mower",
+        "answer": "Sinister"
+      },
+      {
+        "question": "Bloody Prom",
+        "answer": "Carrie"
+      },
+      {
+        "question": "Pale Man",
+        "answer": "Pan’s Labyrinth"
+      },
+      {
+        "question": "Rabbit Mask",
+        "answer": "The Strangers"
+      },
+      {
+        "question": "Ceiling Blood",
+        "answer": "A Nightmare on Elm Street"
+      },
+      {
+        "question": "Shower Silhouette",
+        "answer": "Psycho"
+      },
+      {
+        "question": "TV Well",
+        "answer": "The Ring"
+      },
+      {
+        "question": "Window Vampire",
+        "answer": "Salem’s Lot"
+      },
+      {
+        "question": "Wall of Faces",
+        "answer": "The Haunting"
+      },
+      {
+        "question": "Garage Door",
+        "answer": "Scream"
+      },
+      {
+        "question": "Seed Pod",
+        "answer": "Invasion of the Body Snatchers"
+      },
+      {
+        "question": "Mirror Summoning",
+        "answer": "Candyman"
+      },
+      {
+        "question": "Closet Ghost",
+        "answer": "The Grudge"
+      },
+      {
+        "question": "Television Mouth",
+        "answer": "Videodrome"
+      },
+      {
+        "question": "Cradle Creature",
+        "answer": "Rosemary’s Baby"
+      },
+      {
+        "question": "Wax Victims",
+        "answer": "House of Wax"
+      },
+      {
+        "question": "Blank White Mask",
+        "answer": "Halloween"
+      },
+      {
+        "question": "Hockey Mask",
+        "answer": "Friday the 13th Part III"
+      },
+      {
+        "question": "Puzzle Box",
+        "answer": "Hellraiser"
+      },
+      {
+        "question": "Striped Suit",
+        "answer": "Beetlejuice"
+      },
+      {
+        "question": "Flower Crown",
+        "answer": "Midsommar"
+      },
+      {
+        "question": "Porcelain Doll",
+        "answer": "Annabelle"
+      },
+      {
+        "question": "Fixed Grin",
+        "answer": "Smile"
+      },
+      {
+        "question": "Moth Cocoon",
+        "answer": "The Silence of the Lambs"
+      },
+      {
+        "question": "Red Room Curtains",
+        "answer": "Twin Peaks: Fire Walk with Me"
+      },
+      {
+        "question": "Burlap Pumpkin Mask",
+        "answer": "Trick 'r Treat"
+      },
+      {
+        "question": "Needle Pit",
+        "answer": "Saw II"
+      },
+      {
+        "question": "Black-and-White Clown",
+        "answer": "Terrifier"
+      },
+      {
+        "question": "Eye Splinter",
+        "answer": "Zombie"
+      },
+      {
+        "question": "Chestburster",
+        "answer": "Alien"
+      },
+      {
+        "question": "Teleport Pods",
+        "answer": "The Fly"
+      },
+      {
+        "question": "666 Scalp Mark",
+        "answer": "The Omen"
+      },
+      {
+        "question": "Burning Effigy",
+        "answer": "The Wicker Man"
+      },
+      {
+        "question": "Takeout Turns to Maggots",
+        "answer": "The Lost Boys"
+      },
+      {
+        "question": "Glowing Green Serum",
+        "answer": "Re-Animator"
+      },
+      {
+        "question": "Pink Gelatinous Mass",
+        "answer": "The Blob (1988)"
+      },
+      {
+        "question": "Top-Hat Silhouette",
+        "answer": "The Babadook"
+      }
+    ]
+  }
+}
