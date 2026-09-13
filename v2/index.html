@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#090b0f">
+  <title>Death Match 2.0</title>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <div class="brand">DEATH MATCH</div>
+        <div class="version">2.0 clean core</div>
+      </div>
+    </header>
+
+    <section id="errorBox" class="card error hidden"></section>
+
+    <section id="setup" class="card">
+      <h1>Choose Your Match</h1>
+      <p class="muted">Master 666. No audio. No artwork. Just the game.</p>
+
+      <div class="controls">
+        <label>
+          Category
+          <select id="category"></select>
+        </label>
+
+        <label>
+          Difficulty
+          <select id="difficulty">
+            <option>Scared</option>
+            <option>Curious</option>
+            <option>Madman</option>
+          </select>
+        </label>
+
+        <button id="startBtn" class="primary" type="button" disabled>Start Match</button>
+      </div>
+    </section>
+
+    <section id="game" class="card hidden">
+      <div class="game-head">
+        <div>
+          <h2 id="categoryName">Category</h2>
+          <div class="stats">
+            <span id="difficultyName" class="badge">Scared</span>
+            <span id="matchStat" class="badge">0/6 matched</span>
+            <span id="scoreStat" class="badge">Score 0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="board" aria-label="Matching board">
+        <div id="questions" class="column"></div>
+        <div id="answers" class="column"></div>
+      </div>
+
+      <div id="complete" class="round-complete hidden">
+        <h2>Round Complete</h2>
+        <p class="muted">Ready for another six?</p>
+        <button id="newRoundBtn" class="primary" type="button">Next Round</button>
+      </div>
+
+      <div class="footer-actions">
+        <button id="homeBtn" class="secondary" type="button">Home</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/game.js" defer></script>
+</body>
+</html>
